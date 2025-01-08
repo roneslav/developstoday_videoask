@@ -60,16 +60,24 @@ run the linting script with: npm run lint
 
 Directory Structure Here is an overview of the project's folder structure:
 
-/my-nextjs-app ├── /public # Static files like images and fonts ├── /src │ ├──
-/app # Next.js app directory │ │ ├── /homePage # Home page component │ │ ├──
-/resultPage # Result page component │ │ ├── /api # API integration (Axios calls)
-│ │ ├── /service # API generateStaticParams (generated static paths for the
-result page) │ │ ├── /loader # Component Loader for waiting response from server
-│ ├── /styles # Global CSS and Tailwind config ├── .env.local # Environment
-variables ├── .eslintrc.config.mjs # ESLint configuration ├── .prettierrc.json #
-Prettier configuration ├── next.config.mjs # Next.js configuration ├──
-tailwind.config.mjs # TailwindCSS configuration ├── package.json # Project
-dependencies and scripts └── README.md # Project documentation
+/my-nextjs-app
+├── /public                # Static files like images and fonts
+├── /src
+│   ├── /app              # Next.js app directory
+│   │   ├── /homePage     # Home page component
+│   │   ├── /resultPage   # Result page component
+│   │   ├── /api          # API integration (Axios calls)
+│   │   ├── /service      # API generateStaticParams (generated static paths for the result page)
+│   │   ├── /loader       # Component Loader for waiting response from server
+│   ├── /styles           # Global CSS and Tailwind config
+├── .env.local            # Environment variables
+├── .eslintrc.config.mjs   # ESLint configuration
+├── .prettierrc.json       # Prettier configuration
+├── next.config.mjs         # Next.js configuration
+├── tailwind.config.mjs     # TailwindCSS configuration
+├── package.json           # Project dependencies and scripts
+└── README.md             # Project documentation
+ # Project documentation
 
 Open [http://localhost:3000](http:/localhost:3000) with your browser to see the
 result.
